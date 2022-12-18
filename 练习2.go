@@ -1,3 +1,5 @@
+//使用Go标准库中的随机数生成函数，生成100个整数并添加（append）到一个数组中。
+
 package main
 
 import (
@@ -5,7 +7,7 @@ import (
 	"math/rand"
 	"time"
 )
-
+//冒泡排序
 func main() {
 	var number []int
 	rand.Seed(time.Now().UnixNano())
